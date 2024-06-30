@@ -1,7 +1,17 @@
 # What is it?
 This is a version of ColorMixer made for executing in JVM.
+> __JVM (Java VM / OpenJDK) is required to run ColorMixer-JVM__
 
-# Notes
-1. Java must be installed to run ColorMixer (not Node.js-version!)
-2. You must know what is command prompt (or terminal) and how to work with it
-3. On Android, executing class-files through JDK and Termux fails because of incompatibility of versions of class-files. Every JDK has its class compile version. (so I leave source code to compile it on Android (MigLayout is required as dependency to compile!))
+# Installation and execution
+## Installation
+To install it, go to "Releases" and download "colormixer.jar"
+
+## Execution
+Did you install JVM and ColorMixer-JVM? Great! Let's run it! Open your terminal and type:
+
+`
+java -jar <oath-to-colormixer>\colormixer.jar
+`
+
+---
+Questions? Make an issue!
